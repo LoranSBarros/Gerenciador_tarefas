@@ -22,9 +22,6 @@ O programa tem um menu simples e oferece as seguintes funcionalidades:
 Como rodar o projeto
 
 1. Fazer download do projeto
-Instale o programa em sua máquina
-
-
 
 2. Instalar dependências
 Execute no terminal da IDE:
@@ -40,7 +37,7 @@ dados_conexao = {
     "Database={};"
 )
 
-OBS: O Script virá no documento 'SQL.Script', na qual contém as tabelas para que o código funcione. A tabela poderá ser alterada conforme a necessidade, desde que mantenha os padrões esperados.
+OBS: O Script virá no documento 'SQL.Script', na qual contém as tabelas geradas automaticamente para que o código funcione. A tabela poderá ser alterada conforme a necessidade, desde que mantenha os padrões esperados.
 
 4. Executar o script
 Depois de configurar a conexão, execute o código em Python para iniciar o programa.
