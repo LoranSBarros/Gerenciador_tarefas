@@ -2,7 +2,7 @@ Gerenciador de Tarefas com Python e SQL
 
 O projeto é um gerenciador de tarefas que utiliza Python e SQL Server para controlar as tarefas de um projeto. Nele é possível adicionar, editar, excluir e visualizar tarefas de um projetos específicos.
 
-Este é um projeto na qual é integrado Python com SQL, então as operações de banco de dados são feitas diretamente usando a biblioteca `pyodbc`, e a interação com o banco de dados é feita através de consultas SQL simples.
+Este é um projeto na qual é integrado Python com SQL Server, então as operações de banco de dados são feitas diretamente usando a biblioteca `pyodbc`, e a interação com o banco de dados é feita através de consultas.
 
 
 Funcionalidades
