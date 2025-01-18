@@ -1,0 +1,49 @@
+Gerenciador de Tarefas com Python e SQL
+
+O projeto é um gerenciador de tarefas que utiliza Python e SQL Server para controlar as tarefas de um projeto. Nele é possível adicionar, editar, excluir e visualizar tarefas de um projetos específicos.
+
+Este é um projeto na qual é integrado Python com SQL, então as operações de banco de dados são feitas diretamente usando a biblioteca `pyodbc`, e a interação com o banco de dados é feita através de consultas SQL simples.
+
+
+Funcionalidades
+
+O programa tem um menu simples e oferece as seguintes funcionalidades:
+
+1.Ver tarefas de um projeto: O usuário pode consultar todas as tarefas associadas a um projeto específico, fornecendo o ID do projeto.
+   
+2.Adicionar uma nova tarefa: O usuário pode adicionar uma nova tarefa, informando nome, descrição, data de vencimento e status da tarefa.
+
+3.Editar tarefa existente: O usuário pode editar uma tarefa que já exista, alterando o nome, descrição, data de vencimento ou status.
+
+4.Excluir uma tarefa: O usuário pode excluir uma tarefa existente, confirmando a exclusão por meio do ID da tarefa.
+
+
+
+Como rodar o projeto
+
+1. Fazer download do projeto
+Instale o programa em sua máquina
+
+
+
+2. Instalar dependências
+Execute no terminal da IDE:
+
+pip install pyodbc
+
+
+3. Configurar a conexão com o banco de dados
+
+dados_conexao = {
+    "Driver={};"
+    "Server={};"
+    "Database={};"
+)
+
+OBS: O Script virá no documento 'SQL.Script', na qual contém as tabelas para que o código funcione. A tabela poderá ser alterada conforme a necessidade, desde que mantenha os padrões esperados.
+
+4. Executar o script
+Depois de configurar a conexão, execute o código em Python para iniciar o programa.
+
+
+
